@@ -26,9 +26,9 @@ public class Main {
 
         int year = 2021;
         if ((year % 4 == 0 && year % 400 == 0)  && year > 1584) {
-            System.out.println("Год " + year + " високосный");
+            System.out.println(year + " год является високосный");
         } else {
-            System.out.println("Год " + year + " не является високосным");
+            System.out.println(year + " год не является високосным");
         }
 
 
